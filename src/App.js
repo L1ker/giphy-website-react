@@ -7,7 +7,7 @@ const App = () => {
   const [item, setItem] = useState([]);
   const [number, setNumber] = useState(0);
   const [searchTerm, setSearchTerm] = useState("corona");
-  const key = "t0VhO5TvTZOUUoPGsx3SkBeP64WFeyOO";
+  const key = "";
 
   const request = () => {
     fetch(`https://api.giphy.com/v1/gifs/search?api_key=${key}&q=${searchTerm}`)
